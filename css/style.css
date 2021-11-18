@@ -8,16 +8,16 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: #111111;
+  background: rgb(19, 19, 19);
 }
 
 p {
   font-size: 10px;
   line-height: 10px;
   background: url(/image/bb.jpg);
-  background-repeat: repeat;
   background-position: center;
+  background-repeat: repeat;
   background-attachment: fixed;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: rbga(255, 255, 255, 0.01);
+  -webkit-text-fill-color: rbga(255, 255, 255, 0.05);
 }
